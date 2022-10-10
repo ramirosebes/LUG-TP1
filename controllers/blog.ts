@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import blogModel from "../../models/blogs"
+import blogModel from "../models/blogs"
 
 /*export*/const blogController = {
   get: async (req: Request, res: Response) =>{
